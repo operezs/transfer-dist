@@ -1,0 +1,46 @@
+{
+    "productName": "TransferApi_Dashboard",
+    "systemName": "Denarii Systems",
+    "external": false,
+    "apiConfigs": {
+        "authentication": {
+            "loginUser": {
+                "apiEndpoint": "auth/login"
+            },
+            "register": {
+                "apiEndpoint": "bo-users/"
+            },
+            "revokeUser": {
+                "apiEndpoint": "revoke-token"
+            },
+            "changePassword": {
+                "apiEndpoint": "passwordchange"
+            },
+            "tokenExpirationTime": {
+                "apiEndpoint": "expirationtime"
+            },
+            "forgotPassword": {
+              "apiEndpoint": "auth/forgot_password"
+            },
+            "resetPassword": {
+              "apiEndpoint": "auth/reset_password"
+            }
+        },
+        "user": {
+            "apiEndpoint": "bo-users/"
+        },
+        "overview": {
+            "apiEndpoint": "overview/"
+        },
+        "sender": {
+            "apiEndpoint": "bo-senders/"
+        },
+        "transaction": {
+            "apiEndpoint": "bo-transactions/"
+        },
+        "ip": {
+            "apiEndpoint": "bo-ips/"
+        }
+       
+    }
+}
